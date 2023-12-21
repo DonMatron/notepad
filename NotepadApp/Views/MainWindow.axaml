@@ -15,6 +15,13 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
 
+        <TextBlock Margin="0 10" Text="{Binding Greeting}" />
+
+        <Button Click="ClickHandler" Content="{Binding ButtonAddClicked}" />
+
+        <TextBlock Margin="0 10" x:Name="Message">Ready...</TextBlock>
+
+    </StackPanel>
 </Window>
