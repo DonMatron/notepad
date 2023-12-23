@@ -11,12 +11,16 @@ namespace NotepadApp.Views
         public MainWindow()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+            Width = 400;
+            Height = 700;
+            MinWidth = Width;
+            MinHeight = 400;
         }
 
         public void ClickHandler(object sender, RoutedEventArgs args)
         {
-            count += MainWindowViewModel.IncrementValue;
-            Message.Text = count.ToString();
+            
         }
     }
 }
