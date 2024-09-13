@@ -102,26 +102,6 @@
                     </Grid>
                 </Border>
 
-                <Border Classes="Option">
-                    <Grid ColumnDefinitions="Auto, *, Auto">
-                        <CheckBox/>
-                        <Label>
-                            <TextBox Text="{Binding Description}"/>
-                        </Label>
-                        <Button Click="ClickHandler">Delete</Button>
-                    </Grid>
-                </Border>
-
-                <Border Classes="Option">
-                    <Grid ColumnDefinitions="Auto, *, Auto">
-                        <CheckBox/>
-                        <Label>
-                            <TextBox Text="{Binding Description}"/>
-                        </Label>
-                        <Button Click="ClickHandler">Delete</Button>
-                    </Grid>
-                </Border>
-
             </StackPanel>
         </Border>
     </ScrollViewer>
